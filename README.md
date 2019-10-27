@@ -80,16 +80,10 @@ $ cd bootcamp-gostack-gobarber
 # Crie um arquivo .env e configure as variáveis de ambiente
 
 # Instale as dependências frontend
-$ cd frontend
-$ yarn install
+$ ...
 
-# Rodar aplicativo
-$ yarn start
-
-# Instale as dependências frontend
-$ cd ../mobile
-$ yarn install
-$ yarn react-native run-android ou react-native run-ios 
+# Instale as dependências mobile
+$ ...
 
 # Instale as dependências backend
 $ cd ../backend
