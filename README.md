@@ -111,10 +111,10 @@ $ yarn queue
 ```
 
 ## :paperclip: Arquivos
-:pushpin: [Insomnia](./insomnia.json): arquivo contendo rotas da aplicação, deve ser importado no Insominia, se não tiver, bastar instalar em seu computador. [Link para download](https://insomnia.rest).
+:pushpin: [Insomnia](https://github.com/dhemesmota/bootcamp-gostack-gobarber/blob/master/Insomnia.json): arquivo contendo rotas da aplicação, deve ser importado no Insominia, se não tiver, bastar instalar em seu computador. [Link para download](https://insomnia.rest).
 
 ## :memo: Licença
-Este projeto está sob a licença MIT.[Licença](./LICENSE)
+Este projeto está sob a licença MIT.[Licença](https://github.com/dhemesmota/bootcamp-gostack-gobarber/blob/master/LICENSE)
 
 [reactjs]: https://pt-br.reactjs.org/
 [react-native]: https://facebook.github.io/react-native/
