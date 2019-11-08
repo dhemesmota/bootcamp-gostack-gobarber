@@ -34,7 +34,7 @@
 </p>
 
 
-## :rocket: Tecnologias
+## :rocket: Tecnologias e ferramentas
 - [ReactJS][reactjs]
 - [React Native][react-native]
 - [Node.JS][nodejs]
