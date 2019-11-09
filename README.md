@@ -29,7 +29,7 @@
 </p>
 
 
-## :rocket: Tecnologias
+## :rocket: Tecnologias e ferramentas
 
 Este projeto está sendo desenvolvido com as seguintes tecnologias e ferramentas:
 
@@ -82,16 +82,18 @@ $ git clone git@github.com:dhemesmota/bootcamp-gostack-gobarber.git
 # Vá para o repositório
 $ cd bootcamp-gostack-gobarber
 
-# Crie um arquivo .env e configure as variáveis de ambiente
+# Crie um arquivo .env no backend e configure as variáveis de ambiente
 
 # Instale as dependências frontend
-$ ...
+$ cd frontend
+$ yarn install
+$ yarn start
 
 # Instale as dependências mobile
 $ ...
 
 # Instale as dependências backend
-$ cd ../backend
+$ cd .../backend
 $ yarn install
 
 # Configure os bancos de dados
