@@ -60,6 +60,9 @@ export const Profile = styled.div`
   }
 
   img {
+    width: 3.2;
+    object-fit: cover;
+    offset-position: center;
     height: 3.2rem;
     border-radius: 50%;
   }
