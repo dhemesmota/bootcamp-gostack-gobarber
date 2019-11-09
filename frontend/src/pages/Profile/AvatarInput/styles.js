@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  align-self: center;
-  margin-bottom: 3rem;
+  margin-right: 2rem;
+  max-width: 12rem;
 
   label {
     cursor: pointer;
@@ -16,7 +16,7 @@ export const Container = styled.div`
       object-position: center;
       height: 12rem;
       width: 12rem;
-      border-radius: 50%;
+      border-radius: 0.4rem;
       border: 0.3rem solid rgba(255, 255, 255, 0.3);
       background: #eee;
     }

@@ -15,7 +15,7 @@ export const Container = styled.div`
       border: 0;
       border-radius: 0.4rem;
       height: 4.4rem;
-      padding: 0 15px;
+      padding: 0 1.5rem;
       color: #fff;
       margin: 0 0 1rem;
 
@@ -68,6 +68,25 @@ export const Container = styled.div`
 
     &:hover {
       background: ${darken(0.08, '#f64c75')};
+    }
+  }
+`;
+
+export const Content = styled.div`
+  display: flex;
+  flex: 1;
+  margin-bottom: 1rem;
+
+  div {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 12rem;
+
+    input + input {
+      margin-bottom: 0;
     }
   }
 `;

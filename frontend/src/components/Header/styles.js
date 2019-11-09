@@ -64,6 +64,6 @@ export const Profile = styled.div`
     object-fit: cover;
     offset-position: center;
     height: 3.2rem;
-    border-radius: 50%;
+    border-radius: 0.4rem;
   }
 `;
