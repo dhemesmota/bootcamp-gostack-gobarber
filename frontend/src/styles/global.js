@@ -17,8 +17,9 @@ export default createGlobalStyle`
     outline: 0;
   }
 
-  html, body, #root {
-    height: 100%;
+  body, #root {
+    height: auto;
+    min-height: 100vh;
   }
 
   html {
@@ -27,7 +28,6 @@ export default createGlobalStyle`
 
   body {
     -webkit-font-smoothing: antialiased;
-    background: linear-gradient(-90deg, #7159c1, #ab59c1);
   }
 
   body, input, button {
