@@ -14,7 +14,6 @@ export default function AvatarInput() {
 
   useEffect(() => {
     if (ref.current) {
-      console.tron.log('ok');
       registerField({
         name: 'avatar_id',
         ref: ref.current,
