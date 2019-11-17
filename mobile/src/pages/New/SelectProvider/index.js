@@ -8,7 +8,7 @@ import Background from '~/components/Background';
 
 import { Container, ProviderList, Provider, Avatar, Name } from './styles';
 
-export default function SelectProvider() {
+export default function SelectProvider({ navigation }) {
   const [providers, setProviders] = useState([]);
 
   useEffect(() => {
@@ -27,19 +27,22 @@ export default function SelectProvider() {
         <ProviderList
           data={providers}
           keyExtractor={provider => String(provider.id)}
-          renderItem={({ item }) => (
-            <Provider>
+          renderItem={({ item: provider }) => (
+            <Provider
+              onPress={() =>
+                navigation.navigate('SelectDateTime', { provider })
+              }>
               <Avatar
                 source={{
                   // eslint-disable-next-line no-nested-ternary
-                  uri: item.avatar
+                  uri: provider.avatar
                     ? __DEV__
-                      ? `http://10.0.2.2:3333/files/${item.avatar.path}`
-                      : item.avatar.url
-                    : `https://api.adorable.io/avatar/50/${item.name}.png`,
+                      ? `http://10.0.2.2:3333/files/${provider.avatar.path}`
+                      : provider.avatar.url
+                    : `https://api.adorable.io/avatar/50/${provider.name}.png`,
                 }}
               />
-              <Name>{item.name}</Name>
+              <Name>{provider.name}</Name>
             </Provider>
           )}
         />
