@@ -13,7 +13,6 @@ import { Container, Avatar, Name, Time, SubmitButton } from './styles';
 export default function Confirm({ navigation }) {
   const provider = navigation.getParam('provider');
   const time = navigation.getParam('time');
-  console.tron.log(time);
 
   const timeZone = 'America/Sao_Paulo';
 
