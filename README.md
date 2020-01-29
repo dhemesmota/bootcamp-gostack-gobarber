@@ -29,7 +29,7 @@
 
 ## :rocket: Tecnologias
 
-Este projeto está foi desenvolvido com as seguintes tecnologias:
+Este projeto foi desenvolvido com as seguintes tecnologias:
 
 - [ReactJS][reactjs]
 - [React Native][react-native]
