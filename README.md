@@ -17,8 +17,6 @@
 </p>
 
 <h4 align="center">Software de agendamento de serviços de beleza</h4>
-<p align="center"><strong>Status atual:</strong> Em desenvolvimento.</p>
-
 
 <p align="center">
   <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -29,9 +27,9 @@
 </p>
 
 
-## :rocket: Tecnologias e ferramentas
+## :rocket: Tecnologias
 
-Este projeto está sendo desenvolvido com as seguintes tecnologias e ferramentas:
+Este projeto está foi desenvolvido com as seguintes tecnologias:
 
 - [ReactJS][reactjs]
 - [React Native][react-native]
